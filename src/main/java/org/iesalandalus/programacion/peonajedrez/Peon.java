@@ -67,4 +67,22 @@ public class Peon {
 		}
 	}
 
+	/*
+	 * 15. Crea un constructor para la clase que acepte como parámetros el color y
+	 * la columna inicial. La columna inicial debe ser válida (de lo contrario debe
+	 * lanzar la excepción IllegalArgumentException con un mensaje adecuado) y
+	 * creara un peón del color dado y colocado en dicha columna y cuya fila será la
+	 * 2 si es blanco y la 7 si es negro. Haz un commit.
+	 */
+	public Peon(Color color, char columna) {
+		if (color == null) {
+			throw new NullPointerException("ERROR: No es posible asignar un color nulo");
+		}
+		if (color == Color.BLANCO) {
+			this.posicion = new Posicion(2, columna);
+		} else {
+			this.posicion = new Posicion(7, columna);
+		}
+	}
+
 }
