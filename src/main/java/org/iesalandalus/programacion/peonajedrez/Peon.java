@@ -39,4 +39,13 @@ public class Peon {
 		this.posicion = posicion;
 	}
 
+	/*
+	 * 13. Crea un constructor por defecto para esta clase que cree un peón negro en la
+	 * posición '7d'. Haz un commit.
+	 */
+
+	public Peon() {
+		this.color = Color.NEGRO;
+		this.posicion = new Posicion(7, 'd');
+	}
 }
