@@ -9,4 +9,34 @@ public class Peon {
 	private Color color;
 	private Posicion posicion;
 
+	/*
+	 * 12. Crea los métodos get y set para cada atributo con la visibilidad
+	 * adecuada. Estos métodos siempre comprobarán la validez de los parámetros
+	 * pasados y si no son correctos deberá lanzar la excepción adecuada
+	 * (NullPointerException o IllegalArgumentException) con el mensaje adecuado.
+	 * Haz un commit.
+	 */
+
+	public Color getColor() {
+		return color;
+	}
+
+	public Posicion getPosicion() {
+		return posicion;
+	}
+
+	private void setColor(Color color) {
+		if (color == null) {
+			throw new NullPointerException("ERROR: No es posible asignar un color nulo");
+		}
+		this.color = color;
+	}
+
+	private void setPosition(Posicion posicion) {
+		if (posicion == null) {
+			throw new NullPointerException("ERROR: No es posible asignar una posicion nula");
+		}
+		this.posicion = posicion;
+	}
+
 }
