@@ -36,5 +36,16 @@ public class Posicion {
 		}
 		this.columna = columna;
 	}
+	/*
+	 * 7. Crea un constructor para esta clase que acepte como parámetros la fila y la 
+	 * columna y que los asigne a los atributos si son correctos y si no lance una excepción
+	 * del mismo tipo que la anterior indicando el problema. Para ello utiliza los métodos set
+	 * anteriormente creados. Haz un commit.
+	 * */
+	public Posicion (int fila, char columna) {
+		setFila(fila);
+		setColumna(columna);
+	}
+	
 	
 }
