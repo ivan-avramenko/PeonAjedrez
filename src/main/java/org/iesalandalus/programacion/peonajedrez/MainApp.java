@@ -89,9 +89,16 @@ public class MainApp {
 	 * 20. viii. void realizarMovimiento(int): Dependiendo de la opción asociada al
 	 * movimiento del menú de movimientos, realizará un movimiento u otro.
 	 */
-	
+
 	private static void realizarMovimiento() {
-		
+
+	}
+	/*
+	 *20. ix. void crearPeonDefecto(): Asignará al atributo de clase peon una nueva
+	 * instancia de un peón creado con el constructor por defecto.
+	 */
+	private static void crearPeonDefecto() {
+		peon = new Peon();
 	}
 	
 }
