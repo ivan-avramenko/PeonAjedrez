@@ -101,12 +101,23 @@ public class MainApp {
 	private static void crearPeonDefecto() {
 		peon = new Peon();
 	}
+
 	/*
 	 * 20. x. void crearPeonColor(): Asignará al atributo de clase peon una nueva
 	 * instancia de un peón creado con el constructor al que le pasamos el color.
 	 * Este método debe utilizar métodos ya implementados anteriormente.
 	 */
 	private static void crearPeonColor() {
+
+	}
+
+	/*
+	 * 20. xi. void crearPeonColorColumna(): Asignará al atributo de clase peon una
+	 * nueva instancia de un peón creado con el constructor al que le pasamos el
+	 * color y la columna inicial. Este método debe utilizar métodos ya
+	 * implementados anteriormente.
+	 */
+	private static void crearPeonColorColumna() {
 		
 	}
 	
