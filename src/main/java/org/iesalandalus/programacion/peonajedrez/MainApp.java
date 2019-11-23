@@ -68,9 +68,21 @@ public class MainApp {
 	 * derecha.
 	 */
 	private static void mostrarMenuMovimientos() {
-		System.out.println("Avanzar peon un paso");
-		System.out.println("Avanzar peon dos pasos");
-		System.out.println("Avanzar peon hacia la izquierda");
-		System.out.println("Avanzar peon hacia la derecha");
+		System.out.println("1. - Avanzar peon un paso");
+		System.out.println("2. - Avanzar peon dos pasos");
+		System.out.println("3. - Avanzar peon hacia la izquierda");
+		System.out.println("4. - Avanzar peon hacia la derecha");
+	}
+
+	/*
+	 * 20. vii. int elegirMovimiento(): Nos mostrará un mensaje para que elijamos
+	 * una opción del menú anteriormente creado y nos pedirá que introduzcamos por
+	 * teclado la opción hasta que ésta sea valida. Devolverá la opción elegida.
+	 */
+	private static int elegirMovimiento() {
+		int opcion;
+		System.out.println("Elige una opcion del menu ");
+		opcion = Entrada.entero();
+		return opcion;
 	}
 }
