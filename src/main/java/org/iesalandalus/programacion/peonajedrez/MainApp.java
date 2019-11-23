@@ -93,12 +93,21 @@ public class MainApp {
 	private static void realizarMovimiento() {
 
 	}
+
 	/*
-	 *20. ix. void crearPeonDefecto(): Asignará al atributo de clase peon una nueva
+	 * 20. ix. void crearPeonDefecto(): Asignará al atributo de clase peon una nueva
 	 * instancia de un peón creado con el constructor por defecto.
 	 */
 	private static void crearPeonDefecto() {
 		peon = new Peon();
+	}
+	/*
+	 * 20. x. void crearPeonColor(): Asignará al atributo de clase peon una nueva
+	 * instancia de un peón creado con el constructor al que le pasamos el color.
+	 * Este método debe utilizar métodos ya implementados anteriormente.
+	 */
+	private static void crearPeonColor() {
+		
 	}
 	
 }
