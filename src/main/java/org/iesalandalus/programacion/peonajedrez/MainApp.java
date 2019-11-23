@@ -85,4 +85,13 @@ public class MainApp {
 		opcion = Entrada.entero();
 		return opcion;
 	}
+	/*
+	 * 20. viii. void realizarMovimiento(int): Dependiendo de la opción asociada al
+	 * movimiento del menú de movimientos, realizará un movimiento u otro.
+	 */
+	
+	private static void realizarMovimiento() {
+		
+	}
+	
 }
