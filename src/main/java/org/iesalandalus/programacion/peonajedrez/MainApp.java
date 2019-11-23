@@ -118,7 +118,24 @@ public class MainApp {
 	 * implementados anteriormente.
 	 */
 	private static void crearPeonColorColumna() {
+
+	}
+
+	/*
+	 * 20. xii. void mover(): Mostrará un menú con los posibles movimientos, nos
+	 * preguntará cual queremos realizar y lo realizará. Este método debe utilizar
+	 * métodos ya implementados anteriormente.
+	 */
+	private static void mover() {
+
+	}
+
+	/*
+	 * 20. xiii. void ejecutarOpcion(int): Depediendo de la opción pasada como
+	 * parámetro, actuará en consecuencia. Este método debe utilizar métodos ya
+	 * implementados anteriormente.
+	 */
+	private static void ejecutarOpcion() {
 		
 	}
-	
 }
