@@ -40,5 +40,12 @@ public class MainApp {
 
 	}
 
+	/*
+	 * 20. iv Color elegirColor() iv Nos preguntará que elijamos un color mientras éste no sea válido y
+	 * dependiendo de la opción elegida devolverá un color u otro.
+	 */
+	private static Color elegirColor() {
+		
+	}
 	
 }
