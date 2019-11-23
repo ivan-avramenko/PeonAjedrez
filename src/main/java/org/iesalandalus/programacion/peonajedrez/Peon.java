@@ -107,7 +107,6 @@ public class Peon {
 	 * y no modificará la posición del peón. Haz un commit.
 	 */
 
-	
 	/*
 	 * 18. Crea los métodos equals y hashCode para esta clase. Haz un commit.
 	 */
@@ -139,4 +138,12 @@ public class Peon {
 		return true;
 	}
 
+	/*
+	 * 17. Crea el método toString que devuelva un String que será la representación de
+	 * dicho objeto (color y posición). Haz un commit.
+	 */
+	@Override
+	public String toString() {
+		return "Peon [color=" + color + ", posicion=" + posicion + "]";
+	}
 }
