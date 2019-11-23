@@ -1,5 +1,7 @@
 package org.iesalandalus.programacion.peonajedrez;
 
+import org.iesalandalus.programacion.utilidades.Entrada;
+
 public class MainApp {
 
 	private static Peon peon;
@@ -41,11 +43,34 @@ public class MainApp {
 	}
 
 	/*
-	 * 20. iv Color elegirColor() iv Nos preguntará que elijamos un color mientras éste no sea válido y
-	 * dependiendo de la opción elegida devolverá un color u otro.
+	 * 20. iv Color elegirColor() iv Nos preguntará que elijamos un color mientras
+	 * éste no sea válido y dependiendo de la opción elegida devolverá un color u
+	 * otro.
 	 */
 	private static Color elegirColor() {
-		
+
 	}
-	
+
+	/*
+	 * 20. v char elegirColumnaInicial(): Nos preguntará que elijamos la columna
+	 * inicial mientras ésta no sea válida y devolverá la columna elegida.
+	 */
+	private static char elegirColumnaInicial() {
+		char columna;
+		columna = Entrada.caracter();
+		return columna;
+	}
+
+	/*
+	 * 20. vi. void mostrarMenuMovimientos(): Mostrará por consola un menú con los
+	 * diferentes movimientos que podemos realizar: avanzar peón un paso, avanzar
+	 * peón dos pasos, avanzar peón hacia la izquierda y avanzar peón hacia la
+	 * derecha.
+	 */
+	private static void mostrarMenuMovimientos() {
+		System.out.println("Avanzar peon un paso");
+		System.out.println("Avanzar peon dos pasos");
+		System.out.println("Avanzar peon hacia la izquierda");
+		System.out.println("Avanzar peon hacia la derecha");
+	}
 }
