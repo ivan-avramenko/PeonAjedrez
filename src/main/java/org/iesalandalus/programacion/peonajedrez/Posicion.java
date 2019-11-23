@@ -24,14 +24,14 @@ public class Posicion {
 	}
 
 	private void setFila(int fila) {
-		if (fila >= 1 || fila <= 8) {
+		if (fila < 1 | fila > 8) {
 			throw new IllegalArgumentException("ERROR: valor de fila no valido.");
 		}
 		this.fila = fila;
 	}
 
 	private void setColumna(char columna) {
-		if (columna >= 'a' || columna <= 'h') {
+		if (columna < 'a' | columna > 'h') {
 			throw new IllegalArgumentException("ERROR: valor de columna no valido.");
 		}
 		this.columna = columna;
