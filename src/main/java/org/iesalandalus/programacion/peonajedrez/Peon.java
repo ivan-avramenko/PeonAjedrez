@@ -1,5 +1,7 @@
 package org.iesalandalus.programacion.peonajedrez;
 
+import javax.naming.OperationNotSupportedException;
+
 public class Peon {
 	/*
 	 * 11. Crea la clase Peon, dentro del paquete adecuado, cuyos atributos serán un
@@ -85,4 +87,24 @@ public class Peon {
 		}
 	}
 
+	/*
+	 * 16. Crea el método mover que acepte como parámetro una Direccion y
+	 * dependiendo de dicha dirección modificará la posición del mismo. Si no puede
+	 * realizar dicho movimiento debe lanzar una excepción del tipo
+	 * OperationNotSupportedException con un mensaje adecuado y no modificará la
+	 * posición del peón. Haz un commit.
+	 */
+	public void mover(Direccion direccion) throws OperationNotSupportedException {
+		if (direccion == null) {
+			throw new IllegalArgumentException("La dirección no puede ser nula.");
+		}
+	}
+	/*
+	 * 17. Sobrecarga el método mover que acepte como parámetro un entero y que
+	 * dependiendo del entero modificará la posición del mismo el número de pasos
+	 * indicado por dicho entero. Si no puede realizar dicho movimiento debe lanzar
+	 * una excepción del tipo OperationNotSupportedException con un mensaje adecuado
+	 * y no modificará la posición del peón. Haz un commit.
+	 */
+	
 }
